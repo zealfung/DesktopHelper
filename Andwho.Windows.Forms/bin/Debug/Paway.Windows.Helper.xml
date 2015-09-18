@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Paway.Windows.Helper</name>
+    </assembly>
+    <members>
+        <member name="T:Paway.Windows.Helper.XmlHelper">
+            <summary>
+            对 XML 操作的辅助类
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Helper.XmlHelper.XML_STATEMENT">
+            <summary>
+            XML文件的声明
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.XmlHelper.LoadXml(System.String,System.String)">
+            <summary>
+            通过文件地址加载Xml文件，获取XmlDocument对象
+            </summary>
+            <param name="filePath">xml文件地址所在的系统目录</param>
+            <param name="assemblyPath">文件所在的程序集地址[针对嵌入的资源]</param>
+            <returns>XmlDocument 对象</returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.XmlHelper.CreateXmlStr(System.String,System.String[],System.String[])">
+            <summary>
+            生成XML字符串
+            </summary>
+            <param name="root">根节点</param>
+            <param name="allNodes">所有的子节点</param>
+            <param name="allValues">所有子节点对应的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.XmlHelper.Select``1(System.Xml.XmlDocument)">
+            <summary>
+            返回对应的实体集合
+                访问的XML文件与之对应的 实体类 名称必须大小写一致，数据类型必须是String
+                并且XML的编写格式必须按要求编写
+            </summary>
+            <typeparam name="T">泛型</typeparam>
+            <param name="document">XmlDocument对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Paway.Windows.Helper.DrawHelper">
+            <summary>
+            关于 GDI+ 绘图的辅助类
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.DrawHelper.RendererBackground(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Image,System.Boolean)">
+            <summary>
+            渲染背景图片,使背景图片不失真
+            </summary>
+            <param name="g"></param>
+            <param name="rect"></param>
+            <param name="backgroundImage"></param>
+            <param name="method"></param>
+        </member>
+        <member name="M:Paway.Windows.Helper.DrawHelper.RendererBackground(System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32,System.Drawing.Image)">
+            <summary>
+            渲染背景图片,使背景图片不失真
+            </summary>
+            <param name="g"></param>
+            <param name="rect"></param>
+            <param name="cut"></param>
+            <param name="backgroundImage"></param>
+        </member>
+        <member name="M:Paway.Windows.Helper.DrawHelper.DrawImage(System.Drawing.Graphics,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="g"></param>
+            <param name="image"></param>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="width1"></param>
+            <param name="height1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <param name="width2"></param>
+            <param name="height2"></param>
+        </member>
+        <member name="M:Paway.Windows.Helper.DrawHelper.CreateRoundPath(System.Drawing.Rectangle,System.Int32)">
+            <summary>
+            构建圆角路径
+            </summary>
+            <param name="rect"></param>
+            <param name="cornerRadius"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.DrawHelper.CreateRoundRect(System.Drawing.RectangleF,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            构建圆角路径
+            </summary>
+            <param name="r"></param>
+            <param name="r1"></param>
+            <param name="r2"></param>
+            <param name="r3"></param>
+            <param name="r4"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Paway.Windows.Helper.Encryption">
+            <summary>
+            加密
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Encryption.GetSign(System.String)">
+            <summary>
+            Base64(MD5)
+            </summary>
+            <param name="pEncData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.Encryption.Encrypt3DES(System.String,System.String)">
+            <summary>
+            加密 Base64(3DES(加密内容))
+            </summary>
+            <param name="content"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.Encryption.Decrypt3DES(System.String,System.String)">
+            <summary>
+            解密 Base64(3DES(加密内容))
+            </summary>
+            <param name="sourceData"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Paway.Windows.Helper.Convert">
+            <summary>
+            将一个基本数据类型转换为另一个基本数据类型。
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Helper.Convert.MM_OF_INCH">
+            <summary>
+            每毫米等于的英寸数值
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.MmToInch(System.Single)">
+            <summary>
+            将毫米转换为英寸
+            </summary>
+            <param name="mm">毫米</param>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.ToFloat(System.Object)">
+            <summary>
+            将 object 类型转换为 float
+            </summary>
+            <param name="obj">需要转换的数值</param>
+            <remarks>如果转换失败，则返回 0</remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.ToInt32(System.Object)">
+            <summary>
+            将 object 类型转换为 int
+            </summary>
+            <param name="obj">需要转换的数值</param>
+            <remarks>如果转换失败，则返回 0</remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.ToInt32(System.String)">
+            <summary>
+            将 string 类型转换为 int
+            </summary>
+            <param name="str">需要转换的数值</param>
+            <returns>如果转换失败，则返回 0</returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.ToChineseStr(System.String)">
+            <summary>
+            转换数字金额主函数（包括小数）
+            数字字符串
+            转换成中文大写后的字符串或者出错信息提示字符串
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.IsDecimal(System.String)">
+            <summary>
+            判断是否是正数字字符串
+            <remarks>如果是数字，返回true，否则返回false</remarks>
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.ToData(System.String)">
+            <summary>
+            转换数字（整数）
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.ToDecimalStr(System.String)">
+            <summary>
+            转换数字（小数部分）
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.ToDigit(System.String)">
+            <summary>
+            转换的字符串（四位以内）
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.To4Digit(System.String)">
+            <summary>
+            转换四位数字
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.To3Digit(System.String)">
+            <summary>
+            转换三位数字
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.To2Digit(System.String)">
+            <summary>
+            转换二位数字
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.Convert.To1Digit(System.String)">
+            <summary>
+            将一位数字转换成中文大写数字
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Helper.ImageProcess">
+            <summary>
+            图像处理类
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.ImageProcess.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            图片无损缩放
+            </summary>
+            <param name="source">源图片</param>
+            <param name="destHeight">缩放后图片高度</param>
+            <param name="destWidth">缩放后图片宽度</param>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.ImageProcess.GetThumbnail(System.String,System.Int32,System.Int32)">
+            <summary>
+            图片无损缩放
+            </summary>
+            <param name="filePath">图片源路径</param>
+            <param name="destHeight">缩放后图片高度</param>
+            <param name="destWidth">缩放后图片宽度</param>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.ImageProcess.GetScreenPic">
+            <summary>
+            截取屏幕图像
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.ImageProcess.ToGray(System.Drawing.Image)">
+            <summary>
+            灰度
+            </summary>
+            <param name="image">需要处理成灰度的图片对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Paway.Windows.Helper.StrEx">
+            <summary>
+            对 字符串 的扩展操作
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Helper.StrEx.GetStrLength(System.String)">
+            <summary>
+            获取字符串的字符长度
+            </summary>
+            <param name="str">需要获取字符长度的字符串</param>
+            <returns>返回字符串的字符长度</returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.StrEx.JoinArray(System.Object[])">
+            <summary>
+            将字符串数组以逗号（，）分隔
+            </summary>
+            <param name="array">string[]</param>
+            <returns>返回分隔后的字符串</returns>
+        </member>
+        <member name="M:Paway.Windows.Helper.StrEx.JoinArray(System.Object[],System.String)">
+            <summary>
+            将字符串数据以指定的符号分隔
+            </summary>
+            <param name="array">string[]</param>
+            <param name="split">分隔数组的符号</param>
+            <returns>返回分隔后的字符串</returns>
+        </member>
+    </members>
+</doc>

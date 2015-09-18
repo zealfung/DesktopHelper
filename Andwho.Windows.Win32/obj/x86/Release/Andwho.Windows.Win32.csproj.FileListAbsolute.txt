@@ -1,0 +1,4 @@
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Win32\bin\x86\Release\Andwho.Windows.Win32.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Win32\bin\x86\Release\Andwho.Windows.Win32.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Win32\obj\x86\Release\Andwho.Windows.Win32.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Win32\obj\x86\Release\Andwho.Windows.Win32.pdb

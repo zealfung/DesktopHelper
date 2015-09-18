@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\Paway.Windows.Form\Paway.Windows.Form\bin\Debug\Paway.Windows.Form.dll
+C:\Users\Administrator\Desktop\Paway.Windows.Form\Paway.Windows.Form\bin\Debug\Paway.Windows.Form.pdb
+C:\Users\Administrator\Desktop\Paway.Windows.Form\Paway.Windows.Form\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Paway.Windows.Form\Paway.Windows.Form\obj\Debug\Paway.Windows.Form.dll
+C:\Users\Administrator\Desktop\Paway.Windows.Form\Paway.Windows.Form\obj\Debug\Paway.Windows.Form.pdb

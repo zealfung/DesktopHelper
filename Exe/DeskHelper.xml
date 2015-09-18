@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<update>
+  <client size="2523136">
+    <version>1.0.0.3</version>
+    <file>DesktopHelper.exe</file>
+	<file>Interop.Shell32.dll</file>
+	<file>Andwho.Windows.Win32.dll</file>
+	<file>Andwho.Windows.Resource.dll</file>
+	<file>Andwho.Windows.Helper.dll</file>
+	<file>Andwho.Windows.Forms.dll</file>
+	<file>Andwho.dll</file>
+	<file>Andwho.zip</file>
+	<file>lv.png</file>
+	<file>huang.png</file>
+	<file>hong.png</file>
+	<file>DesktopHelper.vshost.exe.manifest</file>
+	<file>DesktopHelper.vshost.application</file>
+	<file>Interop.WMPLib.dll</file>
+	<file>AxInterop.WMPLib.dll</file>
+  </client>
+</update>

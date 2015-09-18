@@ -1,0 +1,8 @@
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\DataCollection\bin\Debug\DataCollection.exe.config
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\DataCollection\bin\Debug\DataCollection.exe
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\DataCollection\bin\Debug\DataCollection.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\DataCollection\bin\Debug\log4net.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\DataCollection\bin\Debug\System.Data.SQLite.DLL
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\DataCollection\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\DataCollection\obj\x86\Debug\DataCollection.exe
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\DataCollection\obj\x86\Debug\DataCollection.pdb

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<update>
+  <client size="2686976">
+    <version>1.2</version>
+    <file>DesktopHelper.exe</file>
+	<file>Andwho.Windows.Forms.dll</file>
+	<file>Andwho.zip</file>
+  </client>
+</update>

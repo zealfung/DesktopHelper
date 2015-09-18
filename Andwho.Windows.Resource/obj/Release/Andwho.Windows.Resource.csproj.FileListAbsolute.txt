@@ -1,0 +1,5 @@
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Exe\Andwho.Windows.Resource.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Exe\Andwho.Windows.Resource.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Resource\obj\Release\ResolveAssemblyReference.cache
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Resource\obj\Release\Andwho.Windows.Resource.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Resource\obj\Release\Andwho.Windows.Resource.pdb

@@ -1,0 +1,11 @@
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Exe\Andwho.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\ResolveAssemblyReference.cache
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\Interop.WMPLib.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\AxInterop.WMPLib.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\Andwho.csproj.ResolveComReference.cache
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\Andwho.UI.ReminderForm.resources
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\ResGen.read.1.tlog
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\ResGen.write.1.tlog
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\Andwho.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Exe\Andwho.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho\obj\Release\Andwho.dll

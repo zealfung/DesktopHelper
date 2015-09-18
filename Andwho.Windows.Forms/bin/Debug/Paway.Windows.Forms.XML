@@ -1,0 +1,2033 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Paway.Windows.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:Paway.Windows.Forms.Metro.MetroRenderer">
+            <summary>
+            使用 MetroRenderer 类将特定样式或主题应用于 MetroForm
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroRenderer._backColor">
+            <summary>
+            默认背景颜色
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroRenderer._enterColor">
+            <summary>
+            鼠标划过时的背景颜色
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroRenderer._downColor">
+            <summary>
+            鼠标按下时的背景颜色
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroRenderer._foreColor">
+            <summary>
+            文字的前景色
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroRenderer._startColor">
+            <summary>
+            开始菜单前景色
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroRenderer.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroRenderer.#ctor(System.Drawing.Font)">
+            <summary>
+            
+            </summary>
+            <param name="font"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroRenderer.#ctor(System.Drawing.Color)">
+            <summary>
+            
+            </summary>
+            <param name="backColor"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroRenderer.#ctor(System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            
+            </summary>
+            <param name="backColor"></param>
+            <param name="foreColor"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroRenderer.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            
+            </summary>
+            <param name="backColor"></param>
+            <param name="foreColor"></param>
+            <param name="enterColor"></param>
+            <param name="downColor"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroRenderer.BackColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroRenderer.EnterColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroRenderer.DownColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroRenderer.ForeColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroRenderer.StartColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroRenderer.Font">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.ToolBar">
+            <summary>
+            工具栏
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._normalImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._pushedImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._hoverImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._items">
+            <summary>
+            工具栏中的项
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._itemSize">
+            <summary>
+            每一项的大小
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._imageSize">
+            <summary>
+            每一项图片显示的大小
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._itemSpace">
+            <summary>
+            项与项之间的间隔
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._selectedIndex">
+            <summary>
+            选中项的索引
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar._selectedItem">
+            <summary>
+            当前选中项
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar.EventSelectedIndexChanged">
+            <summary>
+            当选中项的索引发生改变时事件的 Key
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolBar.EventSelectedItemChanged">
+            <summary>
+            当选中项的发生改变时事件的 Key
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.#ctor">
+            <summary>
+            初始化 Paway.Windows.Forms.ToolBar 新的实例。
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.Initialize">
+            <summary>
+            初始化控件
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.Paint 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.PaintEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseMove 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.OnMouseLeave(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseLeave 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseDown 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseUp 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.OnSelectedItemChanged(System.EventArgs)">
+            <summary>
+            当选择的 Item 发生改变时激发。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolBar.OnSelectedIndexChanged(System.EventArgs)">
+            <summary>
+            当选择的 Item 索引发生改变时激发。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolBar.Items">
+            <summary>
+            工具栏中的项
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolBar.ItemSize">
+            <summary>
+            Item 的大小
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolBar.ItemSpace">
+            <summary>
+            项与项之间的间隔
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolBar.SelectedItem">
+            <summary>
+            当前选中的 Item
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolBar.SelectedIndex">
+            <summary>
+            选中 Item 的索引
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolBar.DefaultSize">
+            <summary>
+            重写父类的默认大小
+            </summary>
+        </member>
+        <member name="E:Paway.Windows.Forms.ToolBar.SelectedIndexChanged">
+            <summary>
+            当选中项的索引发生改变时
+            </summary>
+        </member>
+        <member name="E:Paway.Windows.Forms.ToolBar.SelectedItemChanged">
+            <summary>
+            当选中项的发生改变时
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.QQRadioButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQRadioButton._mouseState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQRadioButton.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQRadioButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pevent"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQRadioButton.OnMouseEnter(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="eventargs"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQRadioButton.OnMouseLeave(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="eventargs"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQRadioButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="mevent"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQRadioButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="mevent"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQRadioButton.Text">
+            <summary>
+            重写CheckBox的Text属性
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQRadioButton.MouseState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQRadioButton.TextRect">
+            <summary>
+            文本区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQRadioButton.ImageRect">
+            <summary>
+            图片显示区域
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.QQToolStripRenderer">
+            <summary>
+            应用于菜单控件的主题设置
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQToolStripRenderer.OnRenderToolStripBackground(System.Windows.Forms.ToolStripRenderEventArgs)">
+            <summary>
+            绘制菜单背景
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQToolStripRenderer.OnRenderArrow(System.Windows.Forms.ToolStripArrowRenderEventArgs)">
+            <summary>
+            绘制 ToolStripItem 上的箭头。
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQToolStripRenderer.OnRenderToolStripBorder(System.Windows.Forms.ToolStripRenderEventArgs)">
+            <summary>
+            隐藏父类中Border的绘制
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQToolStripRenderer.OnRenderMenuItemBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+            <summary>
+            鼠标划过时的状态
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQToolStripRenderer.OnRenderSeparator(System.Windows.Forms.ToolStripSeparatorRenderEventArgs)">
+            <summary>
+            水平线
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQToolStripRenderer.OnRenderItemCheck(System.Windows.Forms.ToolStripItemImageRenderEventArgs)">
+            <summary>
+            选中项
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQToolStripRenderer.OnRenderItemImage(System.Windows.Forms.ToolStripItemImageRenderEventArgs)">
+            <summary>
+            将图标居中绘制
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:Paway.Windows.Forms.Metro.MetroItemCollection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroItemCollection._owner">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroItemCollection.#ctor(Paway.Windows.Forms.Metro.MetroForm)">
+            <summary>
+            
+            </summary>
+            <param name="owner"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroItemCollection.Add(Paway.Windows.Forms.Metro.MetroItem)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroItemCollection.Owner">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.EItemType">
+            <summary>
+            Item 的类型
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EItemType.Application">
+            <summary>
+            当前应用程序
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EItemType.Directory">
+            <summary>
+            文件夹
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EItemType.Exe">
+            <summary>
+            可执行文件
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EItemType.Menu">
+            <summary>
+            菜单
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EItemType.None">
+            <summary>
+            未知
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EItemType.System">
+            <summary>
+            系统程序
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.QQTextBoxEx">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.OnIconClick">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.InitEvents">
+            <summary>
+            加载事件
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.InitializeComponent">
+            <summary>
+            设计界面
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.PositionTextBox">
+            <summary>
+            偏移文本框
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.BaseText_MouseLeave(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.BaseText_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.BaseText_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.BaseText_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.OnSizeChanged(System.EventArgs)">
+            <summary>
+            当文本框的大小发生改变时，将文本框的类型换成多行文本
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxEx.OnMouseLeave(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="E:Paway.Windows.Forms.QQTextBoxEx.IconClick">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.MaxLength">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.Multiline">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.IsPasswordChat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.ReadOnly">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.IsSystemPasswordChar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.WordWrap">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.Font">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.ForeColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.Lines">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.ScrollBars">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.TextAlign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.Icon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.IconIsButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.WaterText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.WaterColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.Text">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.Cursor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.MinimumSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.MouseState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.IconMouseState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxEx.IconRect">
+            <summary>
+            图标的绘制区域
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.QQCheckBox">
+            <summary>
+            CheckBox
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQCheckBox._mouseState">
+            <summary>
+            当前的属标状态
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQCheckBox.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQCheckBox.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQCheckBox.OnMouseEnter(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="eventargs"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQCheckBox.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="mevent"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQCheckBox.OnMouseLeave(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="eventargs"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQCheckBox.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="mevent"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQCheckBox.TextRect">
+            <summary>
+            文本区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQCheckBox.ImageRect">
+            <summary>
+            图片显示区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQCheckBox.MouseState">
+            <summary>
+            鼠标状态
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQCheckBox.Text">
+            <summary>
+            重写CheckBox的Text属性
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.QQForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.FormBase">
+            <summary>
+            窗体的基类，完成一部分共有的功能
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._sysButton">
+            <summary>
+            系统按钮
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._closeState">
+            <summary>
+            关闭按钮的鼠标状态
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._maxState">
+            <summary>
+            最大化按钮的鼠标状态
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._minState">
+            <summary>
+            最小化按钮的鼠标状态
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._formSize">
+            <summary>
+            记录窗体大小
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._formPoint">
+            <summary>
+            记录窗体位置
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._windowState">
+            <summary>
+            指定窗体窗口如何显示
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._isResize">
+            <summary>
+            是否允许改变窗口大小
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._showIcon">
+            <summary>
+            是否显示图标
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.FormBase._isTransfer">
+            <summary>
+            是否透明化
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.#ctor">
+            <summary>
+            初始化 Paway.Windows.Forms.FormBase 类的新实例。
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.Initialize">
+            <summary>
+            初始化窗口
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.WmNcHitTest(System.Windows.Forms.Message@)">
+            <summary>
+            拖动窗口大小
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.SetBitmap(System.Drawing.Bitmap,System.Byte)">
+            <summary>
+            设置图片为窗体，透明区域根据 opacity 的值决定透明度
+            </summary>
+            <param name="bitmap">透明位图</param>
+            <param name="opacity">透明度的值0~255</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.Paint 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.PaintEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.OnLoad(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.Load 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.OnSizeChanged(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.SizeChanged。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            处理 Windows 消息。
+            </summary>
+            <param name="m">要处理的 WindowsMessage。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseDown。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseMove。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.OnMouseLeave(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseLeave。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.FormBase.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseUp。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.IsResize">
+            <summary>
+            是否允许改变窗口大小
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.WindowState">
+            <summary>
+            指定窗体窗口如何显示
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.MinimumSize">
+            <summary>
+            窗体大小的最小值
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.IsTransfer">
+            <summary>
+            是否透明
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.CreateParams">
+            <summary>
+            封装创建控件时所需的信息。
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.ShowIcon">
+            <summary>
+            是否显示图标
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.Text">
+            <summary>
+            窗体标题文字
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.SysButton">
+            <summary>
+            系统控制按钮
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.SysBtnRect">
+            <summary>
+            系统控制按钮区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.TitleBarRect">
+            <summary>
+            标题栏区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.CloseRect">
+            <summary>
+            关闭按钮区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.MiniRect">
+            <summary>
+            最小化按钮区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.MaxRect">
+            <summary>
+            最大化按钮区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.IconRect">
+            <summary>
+            图标显示区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.TextRect">
+            <summary>
+            标题文本显示区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.CloseState">
+            <summary>
+            关闭按钮当前的鼠标状态
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.MaxState">
+            <summary>
+            最大化按钮当前的鼠标状态
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.FormBase.MinState">
+            <summary>
+            最小化按钮当前的鼠标状态
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQForm._borderImage">
+            <summary>
+            边框图片
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQForm.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQForm.DrawButton(System.Drawing.Graphics,Paway.Windows.Forms.EMouseState,System.Drawing.Rectangle,System.String)">
+            <summary>
+            绘画按钮
+            </summary>
+            <param name="g">画板</param>
+            <param name="mouseState">鼠标状态</param>
+            <param name="rect">按钮区域</param>
+            <param name="str">图片字符串</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQForm.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQForm.OnResize(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQForm.MaxRect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQForm.MiniRect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQForm.SysBtnRect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQForm.CloseRect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.TabStripMenuGlyph.DrawGlyph(System.Drawing.Graphics)">
+            <summary>
+            绘制菜单图型
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.TabStripMenuGlyph.MouseState">
+            <summary>
+            当前鼠标状态
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.TabStripMenuGlyph.Bounds">
+            <summary>
+            菜单按钮的区域
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.QQTextBoxBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQTextBoxBase._waterText">
+            <summary>
+            水印文字
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQTextBoxBase._waterColor">
+            <summary>
+            水印文字的颜色
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxBase.WmPaintWater(System.Windows.Forms.Message@)">
+            <summary>
+            绘制水印
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTextBoxBase.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxBase.WaterText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTextBoxBase.WaterColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.ESysButton">
+            <summary>
+            系统控制按钮
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ESysButton.Normal">
+            <summary>
+            默认-最小化，最大化，关闭
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ESysButton.Close">
+            <summary>
+            关闭按钮
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ESysButton.Close_Mini">
+            <summary>
+            关闭按钮，最小化
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.ETabStripItemChangeTypes">
+            <summary>
+            TabItem
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ETabStripItemChangeTypes.Added">
+            <summary>
+            添加
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ETabStripItemChangeTypes.Removed">
+            <summary>
+            移除
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ETabStripItemChangeTypes.Changed">
+            <summary>
+            改变
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ETabStripItemChangeTypes.SelectionChanged">
+            <summary>
+            改变选中项
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.Metro.MetroForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm._itemWidth">
+            <summary>
+            Item宽度（高度）
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm._itemHeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm._renderer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm._items">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm._mouseDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm._startRect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm.START_IMAGE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm._startSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm._startState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm.EventClickStart">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm.EventClickMetroFormItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.DrawStart(System.Drawing.Graphics)">
+            <summary>
+            绘制开始菜单UI
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OpenProcess(Paway.Windows.Forms.Metro.MetroItem)">
+            <summary>
+            打开Item
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OnMouseLeave(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OnLoad(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OnClickStart(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.OnClickMetroFormItem(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroForm.Renderer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroForm.Items">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroForm.ItemHeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroForm.StartRect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:Paway.Windows.Forms.Metro.MetroForm.ClickStart">
+            <summary>
+            当单击开始按钮时，激发的事件
+            </summary>
+        </member>
+        <member name="E:Paway.Windows.Forms.Metro.MetroForm.ClickMetroFormItem">
+            <summary>
+            当单击Item时激情的事件
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.EMouseState">
+            <summary>
+            鼠标状态
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EMouseState.Normal">
+            <summary>
+            默认
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EMouseState.Move">
+            <summary>
+            鼠标划过
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EMouseState.Down">
+            <summary>
+            鼠标按下
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EMouseState.Up">
+            <summary>
+            鼠标释放
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.EMouseState.Leave">
+            <summary>
+            鼠标离开
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.Metro.MetroItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroItem.OnPaint(System.Drawing.Graphics,System.Drawing.Rectangle,Paway.Windows.Forms.Metro.MetroRenderer)">
+            <summary>
+            
+            </summary>
+            <param name="g"></param>
+            <param name="itemRect"></param>
+            <param name="renderer"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroItem.OnPaintBackground(System.Drawing.Graphics,System.Drawing.Rectangle,Paway.Windows.Forms.Metro.MetroRenderer)">
+            <summary>
+            
+            </summary>
+            <param name="g"></param>
+            <param name="itemRect"></param>
+            <param name="renderer"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroItem.FileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroItem.FilePath">
+            <summary>
+            文件地址
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroItem.Icon">
+            <summary>
+            文件图标
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroItem.IsSystem">
+            <summary>
+            是否为系统程序
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroItem.ClassID">
+            <summary>
+            系统程序的ClassID
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.MetroItem.ItemType">
+            <summary>
+            item的类型
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.ToolItem">
+            <summary>
+            表示 ToolBar 控件中的单个项。
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolItem.Image">
+            <summary>
+            Item 显示的图片
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolItem.Tag">
+            <summary>
+            获取或设置包含有关控件的数据的对象。 
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolItem.Text">
+            <summary>
+            Item 上显示的文字信息
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolItem.Rectangle">
+            <summary>
+            当前 Item 在 ToolBar 中的 Rectangle
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.ToolItem.MouseState">
+            <summary>
+            Item 当前的鼠标状态
+            </summary>
+        </member>
+        <member name="T:Paway.HX.Enums.EDirection">
+            <summary>
+            方向
+            </summary>
+        </member>
+        <member name="F:Paway.HX.Enums.EDirection.Up">
+            <summary>
+            向上
+            </summary>
+        </member>
+        <member name="F:Paway.HX.Enums.EDirection.Down">
+            <summary>
+            向下
+            </summary>
+        </member>
+        <member name="F:Paway.HX.Enums.EDirection.Left">
+            <summary>
+            向左
+            </summary>
+        </member>
+        <member name="F:Paway.HX.Enums.EDirection.Right">
+            <summary>
+            向右
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.QQButton">
+            <summary>
+            Button
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQButton._mouseState">
+            <summary>
+            鼠标状态
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQButton._textAlign">
+            <summary>
+            文本对齐方式
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQButton._normalImage">
+            <summary>
+            默认时的按钮图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQButton._downImage">
+            <summary>
+            鼠标按下时的图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQButton._moveImage">
+            <summary>
+            鼠标划过时的图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQButton._isShowBorder">
+            <summary>
+            是否按下了鼠标
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQButton.#ctor">
+            <summary>
+            实例化 Paway.Windows.Forms.QQButton 新的实例。
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.Paint 事件。
+            </summary>
+            <param name="pevent">包含事件数据的 System.Windows.Forms.PaintEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQButton.OnMouseEnter(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseEnter 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQButton.OnMouseLeave(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseLeave 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseDown 事件。
+            </summary>
+            <param name="mevent">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseUp 事件。
+            </summary>
+            <param name="mevent">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.DefaultSize">
+            <summary>
+            默认大小
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.NormalImage">
+            <summary>
+            默认图片
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.DownImage">
+            <summary>
+            鼠标按下时的图片
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.MoveImage">
+            <summary>
+            鼠标划过时的图片
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.IsShowBorder">
+            <summary>
+            是否显示发光边框
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.Text">
+            <summary>
+            与控件相关的文本
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.Image">
+            <summary>
+            按钮上显示的图片
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.TextAlign">
+            <summary>
+            按钮上文字的对齐方式
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.AllRect">
+            <summary>
+            整个按钮的区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.TextRect">
+            <summary>
+            文字区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQButton.MouseState">
+            <summary>
+            鼠标状态
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.ToolItemCollection">
+            <summary>
+            代表 ToolBar 中项的集合。
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.ToolItemCollection._owner">
+            <summary>
+            ToolBar
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolItemCollection.#ctor(Paway.Windows.Forms.ToolBar)">
+            <summary>
+            初始化 Paway.Windows.Forms.ToolItemCollection 新的实例。
+            </summary>
+            <param name="owner">ToolBar</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.ToolItemCollection.GetIndexOfRange(Paway.Windows.Forms.ToolItem)">
+            <summary>
+            返回该项在集合中的索引值
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Paway.Windows.Forms.Metro.MetroToolStripRenderer">
+            <summary>
+            Metro 风格的右键菜单
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroToolStripRenderer._borderColor">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroToolStripRenderer._backColor">
+            <summary>
+            背景颜色
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.MetroToolStripRenderer._textColor">
+            <summary>
+            文字颜色
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.#ctor(System.Drawing.Color)">
+            <summary>
+            
+            </summary>
+            <param name="backColor"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.#ctor(System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            
+            </summary>
+            <param name="borderColor"></param>
+            <param name="backColor"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            
+            </summary>
+            <param name="borderColor"></param>
+            <param name="backColor"></param>
+            <param name="textColor"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.OnRenderToolStripBackground(System.Windows.Forms.ToolStripRenderEventArgs)">
+            <summary>
+            绘制菜单背景
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.OnRenderToolStripBorder(System.Windows.Forms.ToolStripRenderEventArgs)">
+            <summary>
+            隐藏父类中绘制的边框
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.OnRenderMenuItemBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+            <summary>
+            绘制鼠标划过时的样式
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.OnRenderSeparator(System.Windows.Forms.ToolStripSeparatorRenderEventArgs)">
+            <summary>
+            水平线
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.MetroToolStripRenderer.OnRenderItemText(System.Windows.Forms.ToolStripItemTextRenderEventArgs)">
+            <summary>
+            菜单上的文字
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:Paway.Windows.Forms._360Form">
+            <summary>
+            360 窗体
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms._360Form._borderImage">
+            <summary>
+            边框图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms._360Form._closeImage">
+            <summary>
+            关闭按钮图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms._360Form._minImage">
+            <summary>
+            最小化按钮图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms._360Form._maxImage">
+            <summary>
+            最大化按钮图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms._360Form._restoreImage">
+            <summary>
+            还原按钮图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms._360Form._titleBarMenuImage">
+            <summary>
+            标题栏菜单按钮图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms._360Form._sysButtonPos">
+            <summary>
+            系统按钮与窗体右边边缘的间距
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms._360Form._titleBarMenuState">
+            <summary>
+            标题栏菜单按钮的鼠标状态
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.#ctor">
+            <summary>
+            实例化 Paway.Windows.Forms._360form 新的实例。
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.DrawSysButton(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Image,Paway.Windows.Forms.EMouseState)">
+            <summary>
+            绘制窗体的系统控制按钮
+            </summary>
+            <param name="g">画板</param>
+            <param name="rect">按钮所在的区域</param>
+            <param name="image">图片</param>
+            <param name="state">鼠标状态</param>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.DrawFrameBorder(System.Drawing.Graphics)">
+            <summary>
+            绘制窗体边框
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.Paint 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.PaintEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.OnResize(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.Resize 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseMove。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseDown。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseUp。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms._360Form.OnMouseLeave(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Form.MouseLeave。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="P:Paway.Windows.Forms._360Form.SysButtonPos">
+            <summary>
+            系统控制按钮与右边框之间的距离
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms._360Form.CloseRect">
+            <summary>
+            关闭按钮的矩形区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms._360Form.MaxRect">
+            <summary>
+            最大化按钮的矩形区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms._360Form.MiniRect">
+            <summary>
+            最小化按钮的矩形区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms._360Form.SysBtnRect">
+            <summary>
+            系统按钮的矩形区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms._360Form.TitleBarMenuRect">
+            <summary>
+            标题栏菜单按钮的矩形区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms._360Form.TitleBarMenuState">
+            <summary>
+            标题栏菜单按钮的鼠标的状态
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.Metro.DirectionButton">
+            <summary>
+            方向按钮
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.DirectionButton._defaultSize">
+            <summary>
+            上下按钮的默认大小
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.Metro.DirectionButton._direction">
+            <summary>
+            箭头所指向的方向
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.DirectionButton.#ctor">
+            <summary>
+            用默认设置初始化 Paway.Windows.Forms.DirectionButton 类的新实例。
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.DirectionButton.DrawTriangle(System.Drawing.Graphics)">
+            <summary>
+            绘制三角型
+            </summary>
+            <param name="g">画板，Graphics 对象</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.DirectionButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Control.Paint 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.PaintEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.DirectionButton.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Control.MouseMove 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.DirectionButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Control.MouseDown 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.DirectionButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Control.MouseUp 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.Windows.Forms.MouseEventArgs。</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.Metro.DirectionButton.OnMouseLeave(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Forms.Control.MouseLeave 事件。
+            </summary>
+            <param name="e">包含事件数据的 System.EventArgs。</param>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.DirectionButton.DefaultSize">
+            <summary>
+            控件的默认大小
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.DirectionButton.MouseState">
+            <summary>
+            针对于控件的鼠标状态
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.Metro.DirectionButton.Direction">
+            <summary>
+            指定箭头所指向的方向
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.QQTabControl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQTabControl._isFocus">
+            <summary>
+            是否获取了焦点
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.QQTabControl._btnArrowRect">
+            <summary>
+            选项卡箭头区域
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTabControl.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTabControl.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTabControl.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTabControl.OnMouseLeave(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTabControl.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTabControl.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTabControl.DrawBackground(System.Drawing.Graphics)">
+            <summary>
+            绘制背景
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.QQTabControl.DrawImage(System.Drawing.Graphics,System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            绘图
+            </summary>
+            <param name="g"></param>
+            <param name="image"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTabControl.BaseColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTabControl.BackColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTabControl.BorderColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.QQTabControl.PageColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Paway.Windows.Forms.NotifyForm">
+            <summary>
+            通知窗口
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm.SIZE">
+            <summary>
+            窗口大小
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm.Timer">
+            <summary>
+            控制窗口动画效果
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm.Notify">
+            <summary>
+            当前类的静态实例
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm.ShowInterval">
+            <summary>
+            显示窗口后停留的时间，以“秒”为单位
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm.Interval">
+            <summary>
+            计算时间
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm._notifyText">
+            <summary>
+            提示文字信息
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm._notifyForeColor">
+            <summary>
+            提示信息的文字颜色
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm._notifyFont">
+            <summary>
+            提示信息的字体
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm._backImage">
+            <summary>
+            背景图片
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Forms.NotifyForm._splitImage">
+            <summary>
+            分割线
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.#ctor">
+            <summary>
+            初始化 Paway.Windows.Forms.NotifyForm 新的实例
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.AnimalShow">
+            <summary>
+            将以动画的形式显示窗口，默认存在时间为 5 秒
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.AnimalShow(System.String)">
+            <summary>
+            将以动画的形式显示，默认存在时间为 5 秒
+            </summary>
+            <param name="caption">窗口标题</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.AnimalShow(System.String,System.String)">
+            <summary>
+            将以动画的形式显示，默认存在时间为 5 秒
+            </summary>
+            <param name="caption">窗口标题</param>
+            <param name="text">窗口内容</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.AnimalShow(System.String,System.String,System.Int32)">
+            <summary>
+            将以动画的形式显示，默认存在时间为 5 秒
+            </summary>
+            <param name="caption">窗口标题</param>
+            <param name="text">窗口内容</param>
+            <param name="interval">窗口存在的时间h</param>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.Timer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            执行窗口动画操作
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.OnLoad(System.EventArgs)">
+            <summary>
+            在窗口加载时，初始化部分数据
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Paway.Windows.Forms.NotifyForm.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:Paway.Windows.Forms.NotifyForm.MaximumSize">
+            <summary>
+            设置窗口大小的最大值
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.NotifyForm.MinimumSize">
+            <summary>
+            设置窗口大小的最小值
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.NotifyForm.NotifyText">
+            <summary>
+            提示文字信息
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.NotifyForm.NotifyForeColor">
+            <summary>
+            提示信息的文字颜色
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.NotifyForm.NotifyFont">
+            <summary>
+            提示信息的字体
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.NotifyForm.NotifyTextRect">
+            <summary>
+            提示信息显示的矩型区域
+            </summary>
+        </member>
+        <member name="P:Paway.Windows.Forms.NotifyForm.ControlRect">
+            <summary>
+            控制按钮的区域
+            </summary>
+        </member>
+    </members>
+</doc>

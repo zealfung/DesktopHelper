@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6902413A-D983-4845-83FC-E9F8CA042AB2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Andwho.Windows.Resource</RootNamespace>
+    <AssemblyName>Andwho.Windows.Resource</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Andwho.Windows.Resource.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Exe\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\Andwho.Windows.Resource.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Paway.Windows.Resource.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;e:\ProgramFile\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;e:\ProgramFile\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Paway.Windows.Resource.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;e:\ProgramFile\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;e:\ProgramFile\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QQ\Button\down.png" />
+    <EmbeddedResource Include="QQ\Button\focus.png" />
+    <EmbeddedResource Include="QQ\Button\highlight.png" />
+    <EmbeddedResource Include="QQ\Button\Light.png" />
+    <EmbeddedResource Include="QQ\Button\normal.png" />
+    <EmbeddedResource Include="QQ\Button\White-side.png" />
+    <EmbeddedResource Include="QQ\CheckBox\hightlight.png" />
+    <EmbeddedResource Include="QQ\CheckBox\normal.png" />
+    <EmbeddedResource Include="QQ\CheckBox\tick_highlight.png" />
+    <EmbeddedResource Include="QQ\CheckBox\tick_normal.png" />
+    <EmbeddedResource Include="QQ\CheckBox\_tick_highlight.png" />
+    <EmbeddedResource Include="QQ\CheckBox\_tick_normal.png" />
+    <EmbeddedResource Include="QQ\ComboBox\login_inputbtn_down.png" />
+    <EmbeddedResource Include="QQ\ComboBox\login_inputbtn_highlight.png" />
+    <EmbeddedResource Include="QQ\ComboBox\login_inputbtn_normal.png" />
+    <EmbeddedResource Include="QQ\ContextMenu\menu_arrow.png" />
+    <EmbeddedResource Include="QQ\ContextMenu\menu_bkg.png" />
+    <EmbeddedResource Include="QQ\ContextMenu\menu_bkg_board.png" />
+    <EmbeddedResource Include="QQ\ContextMenu\menu_check.png" />
+    <EmbeddedResource Include="QQ\ContextMenu\menu_cutling.png" />
+    <EmbeddedResource Include="QQ\ContextMenu\menu_highlight.png" />
+    <EmbeddedResource Include="QQ\FormFrame\fringe_bkg.png" />
+    <EmbeddedResource Include="QQ\ListBox\comboboxEraseButton_Hover.png" />
+    <EmbeddedResource Include="QQ\ListBox\comboboxEraseButton_Normal.bmp" />
+    <EmbeddedResource Include="QQ\ListBox\comboboxEraseButton_Push.png" />
+    <EmbeddedResource Include="QQ\ListBox\listitem_check.png" />
+    <EmbeddedResource Include="QQ\RadioButton\highlight.png" />
+    <EmbeddedResource Include="QQ\RadioButton\normal.png" />
+    <EmbeddedResource Include="QQ\RadioButton\tick_highlight.png" />
+    <EmbeddedResource Include="QQ\RadioButton\tick_normal.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_close_down.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_close_highlight.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_close_normal.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_max_down.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_max_highlight.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_max_normal.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_mini_down.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_mini_highlight.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_mini_normal.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_restore_down.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_restore_highlight.png" />
+    <EmbeddedResource Include="QQ\SysButton\btn_restore_normal.png" />
+    <EmbeddedResource Include="QQ\TabControl\main_tabbtn_down.png" />
+    <EmbeddedResource Include="QQ\TabControl\main_tabbtn_highlight.png" />
+    <EmbeddedResource Include="QQ\TabControl\main_tab_background.png" />
+    <EmbeddedResource Include="QQ\TabControl\main_tab_bkg.png" />
+    <EmbeddedResource Include="QQ\TabControl\main_tab_check.png" />
+    <EmbeddedResource Include="QQ\TabControl\main_tab_highlight.png" />
+    <EmbeddedResource Include="QQ\TextBox\move.png" />
+    <EmbeddedResource Include="QQ\TextBox\normal.png" />
+    <EmbeddedResource Include="QQ\ToolButton\allbtn_down.png" />
+    <EmbeddedResource Include="QQ\ToolButton\allbtn_highlight.png" />
+    <EmbeddedResource Include="QQ\ToolButton\allbtn_left_down.png" />
+    <EmbeddedResource Include="QQ\ToolButton\allbtn_left_highlight.png" />
+    <EmbeddedResource Include="QQ\ToolButton\allbtn_right_down.png" />
+    <EmbeddedResource Include="QQ\ToolButton\allbtn_right_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\iexplore.png" />
+    <EmbeddedResource Include="Icons\start.png" />
+    <EmbeddedResource Include="Icons\回收站.png" />
+    <EmbeddedResource Include="Icons\我的电脑.png" />
+    <EmbeddedResource Include="Icons\控制面板.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="_360\SysButton\sys_button_close.png" />
+    <EmbeddedResource Include="_360\SysButton\sys_button_max.png" />
+    <EmbeddedResource Include="_360\SysButton\sys_button_min.png" />
+    <EmbeddedResource Include="_360\SysButton\sys_button_restore.png" />
+    <EmbeddedResource Include="_360\Form\title_bar_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="_360\SysButton\title_bar_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="_360\Form\framemod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="_360\ToolBar\toolbar_hover.png" />
+    <EmbeddedResource Include="_360\ToolBar\toolbar_normal.png" />
+    <EmbeddedResource Include="_360\ToolBar\toolbar_pushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QQ\Button\gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QQ\ScrollBar\Scrollbg.png" />
+    <EmbeddedResource Include="QQ\ScrollBar\Scrollkit.png" />
+    <EmbeddedResource Include="QQ\ScrollBar\VScroll_Down.png" />
+    <EmbeddedResource Include="QQ\ScrollBar\VScroll_Middle.png" />
+    <EmbeddedResource Include="QQ\ScrollBar\VScroll_Middle_Enter.png" />
+    <EmbeddedResource Include="QQ\ScrollBar\VScroll_Up.png" />
+    <EmbeddedResource Include="QQ\UserList\collapseTexture.png" />
+    <EmbeddedResource Include="QQ\UserList\collapseTextureHigh.png" />
+    <EmbeddedResource Include="QQ\UserList\expandTexture.png" />
+    <EmbeddedResource Include="QQ\UserList\expandTextureHigh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QQ\UserList\headbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QQ\head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QQ\FormFrame\ContactFilter_splitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QQ\SkinMgr\aio_light_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\aio_nolight_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\aio_png_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\aio_png_bkg_sms.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\aio_white_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\aio_withbar_png_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\all_inside02_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\all_inside04_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\all_inside05_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\all_inside_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\all_light_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\all_nolight_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\all_white_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\fringe_bkg.png.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\lock_png_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\main_bluelight_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\main_light_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\main_nolight_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\main_png_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\main_white_bkg.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\shadow_bkg.png.png" />
+    <EmbeddedResource Include="QQ\SkinMgr\whilt_bkg.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

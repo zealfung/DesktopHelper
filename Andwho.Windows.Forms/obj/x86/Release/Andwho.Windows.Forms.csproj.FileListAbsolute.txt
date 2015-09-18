@@ -1,0 +1,15 @@
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\bin\x86\Release\Andwho.Windows.Forms.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\bin\x86\Release\Andwho.Windows.Forms.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\bin\x86\Release\Andwho.Windows.Helper.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\bin\x86\Release\Andwho.Windows.Resource.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\bin\x86\Release\Andwho.Windows.Win32.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\bin\x86\Release\Andwho.Windows.Helper.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\bin\x86\Release\Andwho.Windows.Resource.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\bin\x86\Release\Andwho.Windows.Win32.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\x86\Release\Andwho.Windows.Forms.Metro.MetroForm.resources
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\x86\Release\Andwho.Windows.Forms.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\x86\Release\Andwho.Windows.Forms.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\x86\Release\Andwho.Windows.Forms.csprojResolveAssemblyReference.cache
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\x86\Release\Andwho.Windows.Forms.csproj.GenerateResource.Cache
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\x86\Release\Andwho.Windows.Forms.FormBase.resources
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\x86\Release\Andwho.Windows.Forms.QQForm.resources

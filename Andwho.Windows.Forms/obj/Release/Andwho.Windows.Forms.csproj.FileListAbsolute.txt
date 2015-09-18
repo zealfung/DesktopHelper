@@ -1,0 +1,8 @@
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\Release\ResolveAssemblyReference.cache
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\Release\ResGen.read.1.tlog
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\Release\ResGen.write.1.tlog
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Exe\Andwho.Windows.Forms.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Exe\Andwho.Windows.Forms.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\Release\Andwho.Windows.Forms.dll
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\Release\Andwho.Windows.Forms.pdb
+E:\WorkSpace\CSharp\AndwhoSoft\DeskHelper\Andwho.Windows.Forms\obj\Release\Andwho.Windows.Forms.Metro.MetroForm.resources

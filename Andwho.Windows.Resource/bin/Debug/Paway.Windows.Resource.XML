@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Paway.Windows.Resource</name>
+    </assembly>
+    <members>
+        <member name="T:Paway.Windows.Resource.AssemblyHelper">
+            <summary>
+            对当前程序集的操作类
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Resource.AssemblyHelper.CurrentAssemblyName">
+            <summary>
+            程序集的名称
+            </summary>
+        </member>
+        <member name="F:Paway.Windows.Resource.AssemblyHelper.CurrentAssembly">
+            <summary>
+            当前程序集
+            </summary>
+        </member>
+        <member name="M:Paway.Windows.Resource.AssemblyHelper.GetImage(System.String)">
+            <summary>
+            在嵌入的资源文件中查找相应的图片
+            </summary>
+            <param name="name">资源图片的文件名称+扩展名</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
