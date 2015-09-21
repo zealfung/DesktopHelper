@@ -12,7 +12,7 @@ Windows桌面帮手，安全不收集用户信息，不骚扰无弹框，去除�
 * 清理内存功能
 
 ##安装包下载
-*http://www.fengziyi.com/software/desktophelper/DesktopHelperSetup.zip
+* http://www.fengziyi.com/software/desktophelper/DesktopHelperSetup.zip
 
 ##反馈建议
 在使用中有任何问题或者建议，欢迎反馈给我，可以用以下联系方式跟我交流
